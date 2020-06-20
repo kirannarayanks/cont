@@ -8,15 +8,14 @@
 </head>
 <body>
     <div class="contact">
-        <form action="mail.php" class="contact" method="POST">
-            <input type="text" name="name" placeholder="enter ur name" required>
-            <br>
-            <input type="email" name="email" placeholder="enter ur email" required>
-            <br>
-            <textarea name="message" id="" cols="30" rows="10" placeholder="enter ur meassage here" required></textarea>
-            <br>
-            <input type="submit" value="send message">
-        </form>
+        <form role="form" action="mail.php" method="post">
+            <input name="name" required="required" type="text" placeholder="Enter Your Name" />
+            <input name="email" required="required" type="email" placeholder="Email ID"/>
+            <input name="mobile" required="required" type="text" placeholder="Enter Mobile No"/>
+            <textarea name="message" placeholder="Enter Any Message"></textarea>
+            <input name="submit" type="submit" value="Send a Mail" /></form>
+            
     </div>
+    
 </body>
 </html>
