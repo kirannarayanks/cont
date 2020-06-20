@@ -1,0 +1,10 @@
+body{
+    background: linear-gradient(rgba(118, 177, 118, 0.4),rgba(118, 177, 118, 0.4)),url(Hydrangeas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contact
+{
+    text-align: center;
+    padding: 2em;
+}
